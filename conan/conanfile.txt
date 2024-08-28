@@ -1,0 +1,16 @@
+[requires]
+qt/6.6.0
+openssl/3.3.1
+cpp-libp2p/0.1.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
+
+[options]
+qt/*:with_vulkan=False
+qt/*:openssl=True
+cpp-libp2p/*:shared=True
