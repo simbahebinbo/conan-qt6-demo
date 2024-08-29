@@ -1,4 +1,6 @@
 
+set(HUNTER_USE_CACHE_SERVERS YES)
+
 set(
         HUNTER_CACHE_SERVERS
         "https://github.com/qdrvm/hunter-binary-cache"

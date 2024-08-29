@@ -7,6 +7,8 @@ HunterGate(
         LOCAL
 )
 
+cmake_policy(SET CMP0077 NEW)
+
 project(demo VERSION 1.0.0)
 
 include(cmake/dependencies.cmake)
