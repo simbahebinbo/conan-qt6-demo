@@ -1,13 +1,3 @@
-
-set(HUNTER_USE_CACHE_SERVERS YES)
-
-set(
-        HUNTER_CACHE_SERVERS
-        "https://github.com/qdrvm/hunter-binary-cache"
-        CACHE
-        STRING
-        "Binary cache server"
-)
-
+set(HUNTER_USE_CACHE_SERVERS NO)
 
 include(${CMAKE_CURRENT_LIST_DIR}/HunterGate.cmake)

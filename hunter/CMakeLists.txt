@@ -8,6 +8,7 @@ HunterGate(
 )
 
 cmake_policy(SET CMP0077 NEW)
+cmake_policy(SET CMP0144 NEW)
 
 project(demo VERSION 1.0.0)
 
@@ -20,13 +21,15 @@ add_executable(${PROJECT_NAME}
 
 # 链接 Qt6 和 libp2p 库
 target_link_libraries(${PROJECT_NAME}
-        Qt6::Core
-        Qt6::Gui
-        Qt6::Widgets
-        "-framework Metal"        # 链接 Metal 框架
-        "-framework QuartzCore"   # 链接 QuartzCore 框架（如果需要）
-        "-framework Cocoa"        # 链接 Cocoa 框架（如果需要）
+#        Qt6::Core
+#        Qt6::Gui
+#        Qt6::Widgets
+#        "-framework Metal"        # 链接 Metal 框架
+#        "-framework QuartzCore"   # 链接 QuartzCore 框架（如果需要）
+#        "-framework Cocoa"        # 链接 Cocoa 框架（如果需要）
 #        libp2p::p2p
+        GTest::gmock_main
+        GTest::gtest_main
 )
 
 
