@@ -1,12 +1,4 @@
 #hunter_config(
-#        Boost
-#        VERSION 1.86.0
-#        URL "https://boostorg.jfrog.io/artifactory/main/release/1.86.0/source/boost_1_86_0.tar.bz2"
-#        SHA1 fd0d26a7d5eadf454896942124544120e3b7a38f
-#        CMAKE_ARGS CMAKE_POSITION_INDEPENDENT_CODE=ON
-#)
-
-#hunter_config(
 #        Qt6
 #        VERSION 6.7.2
 #        URL "https://download.qt.io/archive/qt/6.7/6.7.2/single/qt-everywhere-src-6.7.2.tar.xz"
@@ -21,11 +13,4 @@
 #)
 #
 
-hunter_config(
-        GTest
-        VERSION 1.15.2
-        URL "https://github.com/google/googletest/archive/v1.15.2.tar.gz"
-        SHA1 568d58e26bd4e838449ca7ab8ebc152b3cbd210d
-        CMAKE_ARGS "CMAKE_CXX_FLAGS=-Wno-deprecated-copy"
-)
 
