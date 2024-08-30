@@ -1,3 +1,0 @@
-set(HUNTER_USE_CACHE_SERVERS NO)
-
-include(${CMAKE_CURRENT_LIST_DIR}/HunterGate.cmake)
