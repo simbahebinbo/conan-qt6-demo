@@ -1,27 +1,27 @@
 ```shell
 $ conan --version 
-Conan version 2.7.0
+Conan version 2.10.2
 ```
 
 ```shell
 $ cmake --version
-cmake version 3.30.0
+cmake version 3.31.2
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
 
 ```shell
 $ gcc --version
-Apple clang version 15.0.0 (clang-1500.3.9.4)
-Target: arm64-apple-darwin23.5.0
+Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.1.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 
 ```shell
 $ g++ --version
-Apple clang version 15.0.0 (clang-1500.3.9.4)
-Target: arm64-apple-darwin23.5.0
+Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.1.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
