@@ -1,6 +1,6 @@
 [requires]
-qt/6.7.3
-boost/1.86.0
+qt/6.8.3
+boost/1.88.0
 
 [generators]
 CMakeDeps
