@@ -9,8 +9,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # 设置 CMake 政策
-cmake_policy(SET CMP0167 NEW)
-cmake_policy(SET CMP0144 NEW)
+# 设置 CMake 政策
+if(POLICY CMP0167)
+    cmake_policy(SET CMP0167 NEW)
+endif()
+if(POLICY CMP0144)
+    cmake_policy(SET CMP0144 NEW)
+endif()
 
 #优先查找静态库
 set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
